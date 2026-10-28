@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.env
+.git
+.gitignore
+src/tests
+public/uploads/*
+!public/uploads/.gitkeep

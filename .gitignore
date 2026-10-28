@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables (protect secrets & credentials)
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+frontend/.env
+
+# Production / Build outputs
+dist/
+frontend/dist/
+build/
+out/
+.next/
+
+# Uploads & temporary files
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+temp/
+tmp/
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+query
